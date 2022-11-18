@@ -50,3 +50,12 @@ header{
     flex-grow: 1;
    
 }
+.rectangulo{
+    /*color*/
+    background-color: orange;
+     /*forma*/
+    height: 600px;
+    border-radius: 150px;
+    /*margen*/
+    margin-top: 100px;
+}
