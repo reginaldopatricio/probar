@@ -1,0 +1,52 @@
+
+
+body{
+    background-color: #686868;
+    
+}
+/* Contenedor*/
+.containner{
+    /*poner una altura falsa*/
+   height: 200vh;
+   /*fondo de web*/
+   background-color: #F9F9E2;
+   /*ancho controlado*/
+   max-width: 1366px;
+   /*siempre en el centro de todas las pantallas*/
+   margin: 0 auto;
+   /*margenes*/
+   box-sizing: border-box;
+   padding: 35px 60px 0 60px;
+   
+}
+
+/*circulo representando la zona del logo*/
+.circulo{
+    /*color*/
+    background-color: orange;
+   /*forma*/
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   /*margen*/
+   margin: 20px;
+   
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    
+}
+
+.rectanguloazul{
+    /*color*/
+    background-color: blue;
+    /*forma*/
+    height: 200px;
+    /*margen*/
+    
+    flex-grow: 1;
+   
+}
